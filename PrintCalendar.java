@@ -62,7 +62,7 @@ public class PrintCalendar {
   /** Print month body */
   public static void printMonthBody(int year, int month) {
   // Get start day of the week for the first date in the month
-  int startDay = getStartDay(year, month)
+  int startDay = getStartDay(year, month);
 
   // Get number of days in the month
   int numberOfDaysInMonth = getNumberOfDaysInMonth(year, month);
